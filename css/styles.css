@@ -115,6 +115,11 @@ body {
   text-align:center;
   font-size:2.1vmax;
 }
+.log-link{
+    color:#21a6ba;
+    cursor:pointer;
+    text-decoration:none;
+}
 /* Mobile Compatibility */
   @media only screen and (max-width: 1000px){
     #body-header {
