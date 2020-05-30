@@ -115,3 +115,135 @@ body {
   text-align:center;
   font-size:2.1vmax;
 }
+/* Mobile Compatibility */
+  @media only screen and (max-width: 1000px){
+    #body-header {
+      display:block;
+      font-size:4vmax;
+      font-family: 'Press Start 2P', serif;
+      color: #B1B1B1;
+      text-align:center;
+    }
+    .desc {
+      margin: 3vmax 3vmax 3vmax 3vmax;
+    }
+    #olimar-img {
+      display:none;
+    }
+    #body-text {
+      display:block;
+      font-size:2vmax;
+      margin-top: 8vmax;
+      font-family: 'Montserrat', sans-serif;
+      color: #B1B1B1;
+      text-align:center;
+    }
+    #body-header2 {
+      display:block;
+      font-size:4vmax;
+      margin-top:25vmax;
+      font-family: 'Press Start 2P', serif;
+      color: #B1B1B1;
+      text-align:center;
+    }
+    #body-text2 {
+      display:block;
+      font-size:2vmax;
+      margin-top: 35vmax;
+      font-family: 'Montserrat', sans-serif;
+      color: #B1B1B1;
+      text-align:center;
+    }
+    .nav-text {
+      margin: 1vmax 2vmax auto 2vmax;
+      font-family: 'Roboto', sans-serif;
+      font-size:3vmax;
+      color: #B1B1B1;
+      opacity:0.75;
+      transition-duration: 0.25s;
+      cursor: pointer;
+      text-decoration:none;
+    }
+    #nav-image {
+      height:6.5vmax;
+      transition-duration: 0.25s;
+      opacity:0.75;
+      cursor: pointer;
+    }
+    #btn {
+      background-color:#21a6ba;
+      height:6vmax;
+      width:18vmax;
+      display:inline;
+      position:absolute;
+      font-size:1vmax;
+      margin: 20vmax 50% 0 30% ;
+      border-radius:20px;
+    }
+    }
+    /* IPHONE X */
+    @media only screen and (max-width: 375px){
+      #body-header {
+        display:block;
+        font-size:4vmax;
+        font-family: 'Press Start 2P', serif;
+        color: #B1B1B1;
+        text-align:center;
+      }
+      .desc {
+        margin: 3vmax 3vmax 3vmax 3vmax;
+      }
+      #olimar-img {
+        display:none;
+      }
+      #body-text {
+        display:block;
+        font-size:2vmax;
+        margin-top: 15vmax;
+        font-family: 'Montserrat', sans-serif;
+        color: #B1B1B1;
+        text-align:center;
+      }
+      #body-header2 {
+        display:block;
+        font-size:4vmax;
+        margin-top:40vmax;
+        font-family: 'Press Start 2P', serif;
+        color: #B1B1B1;
+        text-align:center;
+      }
+      #body-text2 {
+        display:block;
+        font-size:2vmax;
+        margin-top: 50vmax;
+        font-family: 'Montserrat', sans-serif;
+        color: #B1B1B1;
+        text-align:center;
+      }
+      .nav-text {
+        margin: 1vmax 2vmax auto 2vmax;
+        font-family: 'Roboto', sans-serif;
+        font-size:3vmax;
+        color: #B1B1B1;
+        opacity:0.75;
+        transition-duration: 0.25s;
+        cursor: pointer;
+        text-decoration:none;
+      }
+      #nav-image {
+        height:6.5vmax;
+        transition-duration: 0.25s;
+        opacity:0.75;
+        cursor: pointer;
+      }
+      #btn {
+        background-color:#21a6ba;
+        height:6vmax;
+        width:18vmax;
+        display:inline;
+        position:absolute;
+        font-size:1vmax;
+        margin: 35vmax 50% 0 30% ;
+        border-radius:20px;
+      }
+      }
